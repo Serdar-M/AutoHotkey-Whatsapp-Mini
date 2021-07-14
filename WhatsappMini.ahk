@@ -1,5 +1,5 @@
-﻿;Designer : Serdar Mutlu
-;Uygulama dili "AutoHotkey" https://www.autohotkey.com/
+;Designer : Serdar Mutlu
+;Uygulama kodlama dili "AutoHotkey" https://www.autohotkey.com/
 ;Mail : serdarmutlugroup@gmail.com
 ;Uygulama Adı : WhatsappMini 14.07.2021
 ;Açıklama : Numara kaydetmenize gerek kalmadan whatsapp'tan mesaj göndermenizi sağlar (Masaüstü Uygulamasıdır)
@@ -22,7 +22,7 @@ F3 = %A_Desktop%\WhatsappMini\Picture\button-gonder.png
 ifnotexist,%f3%
    urldownloadtofile,%f2%,%f3%
 
-Gui, +hwndhMyGUI -Theme -caption +LastFound +AlwaysOnTop
+Gui, +hwndhMyGUI -Theme -caption +LastFound
 Gui, Color, 333333, D1D1D1
 WinSet, TransColor, 333333 255
 Gui, Add , Picture, x475 y10 w15 h15 gKapat,
@@ -41,9 +41,7 @@ GuiControl, Show, State1
 GuiControlGet, Edit1
 GuiControlGet, Edit2
 Gui, Submit, NoHide
-Run, https://wa.me/9%AssociatedVar%?text=%AssociatedVar2%
-Sleep, 5000
-Send, {Enter}
+Run, https://wa.me/9%Edit1%?text=%Edit2%
 Return
 
 WM_LBUTTONDOWN(wParam, lParam, msg, hWnd)
