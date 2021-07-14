@@ -1,7 +1,11 @@
 # AutoHotkey-ile-Masa-st-Mini-Whatsap-Uygulamas-
 Numara kaydetmenize gerek kalmadan direk bağlantı yapmanızı ve mesaj göndermenizi sağlar.
 
-Öncelikle  https://www.autohotkey.com/ adresinden ahk yı yükleyin sonrasında isterseniz bu klasörü exe'ye çevirip kendinize ait ilk  uygulamınızı yapmış olursunuz.
-Mutlu Kalın :)
+Numara kaydetmenize gerek kalmadan whatsapp'tan mesaj göndermenizi sağlar (Masaüstü Uygulamasıdır)
+AutoHotkey https://www.autohotkey.com/ adresinden indirebilirsiniz veya 
+indirdiğiniz zip dosyasından WhatsappMini.exe ile kullanabilirsiniz
+Mutlu Kalın
+![deneme2](https://user-images.githubusercontent.com/80648626/125557186-5ab2ab29-98ec-4ed5-aa4b-ce43f204fc02.gif)
 
-![WHATSAPMİNİ3](https://user-images.githubusercontent.com/80648626/111084186-2caf4b80-8522-11eb-8ece-6a487d7064ff.png)
+
+
